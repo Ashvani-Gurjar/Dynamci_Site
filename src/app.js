@@ -6,7 +6,7 @@ require("./db/conn");
 const hbs =  require("hbs");
 const User= require("./models/usermessage")
 
-const publi = path.join(__dirname,"../public");
+const  publi = path.join(__dirname,"../public");
 
 const viepath = path.join(__dirname,"../templates/views");
 const vieparti = path.join(__dirname,"../templates/partials");
